@@ -8,7 +8,7 @@ def download_images(a,b):
 	image_count = 0
 	k = a
 	no_of_images = b
-	baseURL='http://graph.facebook.com/v2.2/'
+	baseURL='https://graph.facebook.com/v2.2/'
 	imgURL='/picture?type=large'
 	sil_check='/picture?redirect=false'
 	while image_count<no_of_images:
